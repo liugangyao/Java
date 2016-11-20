@@ -1,0 +1,8 @@
+1,download maven
+  http://maven.apache.org/download.cgi
+2,解压到本地目录下。
+3,设置环境变量JAVA_HOME。（如果已经设置过了，则省略）。
+4，设置环境变量MAVEN_HOME。（指向解压到本地的目录下）。
+   在PATH里追加%MAVEN_HOME%\bin。
+5，在CMD下，敲入mvn -version 来测试是否成功。
+6，在ECLIPSE下，安装MAVEN插件。
